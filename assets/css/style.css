@@ -1,0 +1,91 @@
+@font-face {
+  font-family: TR;
+  src: url("../font/PPTelegraf-Regular.otf");
+}
+@font-face {
+  font-family: TUB;
+  src: url("../font/PPTelegraf-UltraBold.otf");
+}
+@font-face {
+  font-family: TUL;
+  src: url("../font/PPTelegraf-UltraLight.otf");
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  user-select: none;
+  scroll-behavior: smooth;
+}
+img {
+  width: 100%;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  height: 100vh;
+  -ms-scroll-snap-type: y mandatory;
+  scroll-snap-type: y mandatory;
+  overflow: auto;
+}
+li div {
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  li div{
+    padding-bottom: 20vh;
+  }
+}
+.effect {
+  height: 100%;
+  scroll-snap-align: center;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  max-inline-size: 100%;
+}
+
+/* ONE */
+.container-one {
+  background-color: #281e43;
+  font-family: TR;
+  color: #fff;
+  font-size: 45px;
+  text-align: center;
+}
+.one {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+}
+.one::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/codingtrash.gif");
+  background-position: center;
+  background-size: cover;
+  filter: brightness(50%);
+}
+.one-text-container{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  text-shadow: 20px 20px 50px #00000050;
+}
+
+
