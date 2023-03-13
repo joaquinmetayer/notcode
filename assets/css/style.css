@@ -10,9 +10,6 @@
   font-family: TUL;
   src: url("../font/PPTelegraf-UltraLight.otf");
 }
-*::-webkit-scrollbar {
-  display: none;
-}
 *,
 *:after,
 *:before {
@@ -38,7 +35,7 @@ li div {
   margin: 0 auto;
 }
 @media (max-width: 500px) {
-  li div{
+  li div {
     padding-bottom: 20vh;
   }
 }
@@ -55,8 +52,8 @@ li div {
 .container-one {
   background-color: #281e43;
   font-family: TR;
-  color: #fff;
-  font-size: 45px;
+  color: #ffffff80;
+  font-size: 44px;
   text-align: center;
 }
 .one {
@@ -77,7 +74,7 @@ li div {
   background-size: cover;
   filter: brightness(50%);
 }
-.one-text-container{
+.one-text-container {
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -87,5 +84,16 @@ li div {
   position: relative;
   text-shadow: 20px 20px 50px #00000050;
 }
-
-
+.not-code-big {
+  width: 333px;
+  padding-bottom: 10px;
+}
+@media (max-width: 500px) {
+  .not-code-big {
+    width: 275px;
+    padding-bottom: 8px;
+  }
+  .container-one {
+    font-size: 37px;
+  }
+}
