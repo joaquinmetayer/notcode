@@ -10,6 +10,19 @@
   font-family: TUL;
   src: url("../font/PPTelegraf-UltraLight.otf");
 }
+/* CAMBIAR COLOR SCROLL */
+::-webkit-scrollbar {
+  width: 7.5px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: none; 
+  border-radius: 0;
+  background-color: #281e43;
+}
+::-webkit-scrollbar-thumb {
+  background: #ed6e1d; 
+  border-radius: 0;
+}
 *,
 *:after,
 *:before {
