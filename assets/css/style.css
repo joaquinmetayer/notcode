@@ -10,6 +10,14 @@
   font-family: TUL;
   src: url("../font/PPTelegraf-UltraLight.otf");
 }
+@font-face {
+  font-family: DB;
+  src: url("../font/Disket-Mono-Bold.ttf");
+}
+@font-face {
+  font-family: DR;
+  src: url("../font/Disket-Mono-Regular.ttf");
+}
 /* CAMBIAR COLOR SCROLL */
 ::-webkit-scrollbar {
   width: 7.5px;
