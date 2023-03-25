@@ -68,7 +68,6 @@ body {
 }
 * {
   font-family: TR;
-  user-select: none;
 }
 .link-nav {
   color: #fff;
@@ -134,7 +133,6 @@ body {
   background-position: center;
   background-size: cover;
   border-radius: 0.75rem;
-  min-height: 500px;
 }
 .inside-info-rigth {
   padding: 20px;
@@ -149,6 +147,7 @@ body {
 }
 .agenda-info {
   width: 100%;
+  height: 60px;
   padding: 15px;
   display: flex;
   justify-content: center;
@@ -171,4 +170,20 @@ body {
 .click-instagram:hover {
   transition: 0.5s;
   color: #ff6872;
+}
+.click-cita {
+  color: #00a2ff;
+  font-family: TUB;
+  transition: 0.5s;
+}
+.click-cita:hover {
+  transition: 0.5s;
+  color: #22aeff
+}
+.unico{
+  color: #ffffff90;
+}
+.saluting{
+  width: 80px;
+  padding: 0 10px 0 10px;
 }
