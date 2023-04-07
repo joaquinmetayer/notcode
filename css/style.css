@@ -204,3 +204,11 @@ body {
   margin: 0 auto;
   height: auto;
 }
+iframe{
+  width: 100%;
+  aspect-ratio: 16 /9;
+}
+.link-ref-airtable{
+  font-family: TUB;
+  text-decoration: underline;
+}
